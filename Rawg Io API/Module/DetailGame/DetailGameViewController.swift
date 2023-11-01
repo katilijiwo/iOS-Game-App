@@ -7,6 +7,7 @@
 
 import UIKit
 import MaterialComponents
+import Core
 
 class DetailGameViewController: UIViewController {
     

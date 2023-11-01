@@ -7,6 +7,7 @@
 
 import UIKit
 import SDWebImage
+import Core
 
 class ListGameViewTableCell: UITableViewCell {
     static let identifier = "ListGameViewTableCell"

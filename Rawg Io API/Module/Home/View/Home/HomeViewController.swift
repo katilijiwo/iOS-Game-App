@@ -7,6 +7,7 @@
 
 import UIKit
 import MaterialComponents.MaterialSnackbar
+import Core
 
 class HomeViewController: UIViewController {
 
