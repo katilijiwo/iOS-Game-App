@@ -36,6 +36,7 @@
 		04EFA66E2A94FCC800A6EDE4 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFA66D2A94FCC800A6EDE4 /* String+Ext.swift */; };
 		1624ACDA2AAB622600FF7FD2 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624ACD92AAB622600FF7FD2 /* FavoriteViewModel.swift */; };
 		16261D1A2AF48D180057357E /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16261D192AF48D180057357E /* Injection.swift */; };
+		1670B75B2AF610D900875FB0 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 1670B75A2AF610D900875FB0 /* codemagic.yaml */; };
 		16F819892AF2A728004F7E72 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 16F819882AF2A728004F7E72 /* Core */; };
 		80765C24297F89A0265B9EC2 /* Pods_Rawg_Io_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE56AB7E91CADC417A86420 /* Pods_Rawg_Io_API.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		0BE56AB7E91CADC417A86420 /* Pods_Rawg_Io_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rawg_Io_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1624ACD92AAB622600FF7FD2 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		16261D192AF48D180057357E /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		1670B75A2AF610D900875FB0 /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		16F819852AF2A651004F7E72 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Core; sourceTree = "<group>"; };
 		695CA01F4F8F9E7B9A13BE8E /* Pods-Rawg Io API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rawg Io API.release.xcconfig"; path = "Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API.release.xcconfig"; sourceTree = "<group>"; };
 		E799815CE54C67038B3A168C /* Pods-Rawg Io API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rawg Io API.debug.xcconfig"; path = "Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		044494232A90AC8400B46974 = {
 			isa = PBXGroup;
 			children = (
+				1670B75A2AF610D900875FB0 /* codemagic.yaml */,
 				16F819832AF2A57E004F7E72 /* Packages */,
 				0444942E2A90AC8400B46974 /* Rawg Io API */,
 				0444942D2A90AC8400B46974 /* Products */,
@@ -362,6 +365,7 @@
 				04940EB42AA5A7920056219B /* FavoriteViewController.xib in Resources */,
 				044494392A90AC8500B46974 /* Assets.xcassets in Resources */,
 				04E9B0212AA6079100296DD9 /* FavoriteTableViewCell.xib in Resources */,
+				1670B75B2AF610D900875FB0 /* codemagic.yaml in Resources */,
 				049A282D2AA2DD6500CBCF31 /* AboutViewController.xib in Resources */,
 				044494372A90AC8400B46974 /* Main.storyboard in Resources */,
 			);
