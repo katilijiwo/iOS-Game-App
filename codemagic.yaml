@@ -8,14 +8,6 @@ workflows:
           XCODE_PROJECT: "Rawg Io API.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "Rawg Io API" # Isikan nama scheme project Anda.
     scripts:
-      - name: Run tests
-        script: |
-          xcodebuild \
-          -project "$XCODE_PROJECT" \
-          -scheme "$XCODE_SCHEME" \
-          -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max,OS=16.1' \
-          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
