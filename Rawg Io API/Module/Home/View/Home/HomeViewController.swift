@@ -8,6 +8,8 @@
 import UIKit
 import MaterialComponents.MaterialSnackbar
 import Core
+import Detail
+import SwiftUI
 
 class HomeViewController: UIViewController {
 
@@ -113,9 +115,9 @@ extension HomeViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let gameId = Int(listGame?[indexPath.row].id ?? 0)
-        let vc = DetailGameViewController()
-        vc.newInstance(gameId: gameId)
-
+        
+        let vc = TestViewController.viewController
+                
         self.navigationController?.pushViewController(vc, animated: true)
     }
 

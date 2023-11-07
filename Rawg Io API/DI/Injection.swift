@@ -28,5 +28,4 @@ public final class Injection: NSObject {
         let repository = provideRepository(realm: realm)
         return GameDetailUseCase.sharedInstance(repository)
     }
-    
 }
