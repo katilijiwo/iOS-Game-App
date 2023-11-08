@@ -32,10 +32,6 @@ jobs:
 
      - name: List available Xcode versions
        run: ls /Applications | grep Xcode
-
-     - name: Install Dependencies
-       run: |
-         pod install --repo-update
          
      # Runs a set of commands using the runners shell
      - name: build archive
