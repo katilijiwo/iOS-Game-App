@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
+        "version" : "5.8.0"
+      }
+    },
+    {
+      "identity" : "ios-game-app-about",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jiwomdf/iOS-Game-App-About.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5c217fdf64e519ba1e3c1110d0b2a92682a0466c"
+      }
+    },
+    {
+      "identity" : "ios-game-app-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jiwomdf/iOS-Game-App-Core.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "058ae534fe15d135ad8d1c7257a98cce30475e0e"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "e836317e8238bd32f06086dd7ce6768ef574beb6",
+        "version" : "13.22.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "16273bd3968468e0c947dfe8577975c34d8d4360"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "fd1950de05a5ad77cb252fd88576c1e1809ee50d"
+      }
+    }
+  ],
+  "version" : 2
+}
