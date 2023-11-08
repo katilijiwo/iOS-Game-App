@@ -37,7 +37,7 @@
 		16261D1A2AF48D180057357E /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16261D192AF48D180057357E /* Injection.swift */; };
 		16BA0E222AFB9112001955D1 /* iOS-Game-App-About in Frameworks */ = {isa = PBXBuildFile; productRef = 16BA0E212AFB9112001955D1 /* iOS-Game-App-About */; };
 		16BA0E242AFB9115001955D1 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 16BA0E232AFB9115001955D1 /* Core */; };
-		C7C6F9DD961FE6288B2ACC3B /* Pods_Rawg_Io_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9ABA5DC99DF23837ADE4F7 /* Pods_Rawg_Io_API.framework */; };
+		16D4C5B32AFC0A4D002C76E8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 16D4C5B22AFC0A4D002C76E8 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,9 +71,6 @@
 		162088A42AFB550F00226D80 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		1624ACD92AAB622600FF7FD2 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		16261D192AF48D180057357E /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
-		CC4F499E5F3DE1CFF530F667 /* Pods-Rawg Io API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rawg Io API.debug.xcconfig"; path = "Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API.debug.xcconfig"; sourceTree = "<group>"; };
-		CCDB95A7071DB84BAF8FDD81 /* Pods-Rawg Io API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rawg Io API.release.xcconfig"; path = "Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API.release.xcconfig"; sourceTree = "<group>"; };
-		EB9ABA5DC99DF23837ADE4F7 /* Pods_Rawg_Io_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rawg_Io_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +80,7 @@
 			files = (
 				16BA0E222AFB9112001955D1 /* iOS-Game-App-About in Frameworks */,
 				16BA0E242AFB9115001955D1 /* Core in Frameworks */,
-				C7C6F9DD961FE6288B2ACC3B /* Pods_Rawg_Io_API.framework in Frameworks */,
+				16D4C5B32AFC0A4D002C76E8 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +102,6 @@
 				0444942E2A90AC8400B46974 /* Rawg Io API */,
 				0444942D2A90AC8400B46974 /* Products */,
 				B0993D50D042A45EA17AE8C0 /* Pods */,
-				05471A185C2E48FD642704DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,14 +226,6 @@
 			path = ListFavorite;
 			sourceTree = "<group>";
 		};
-		05471A185C2E48FD642704DA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB9ABA5DC99DF23837ADE4F7 /* Pods_Rawg_Io_API.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		162088982AFB539300226D80 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,8 +264,6 @@
 		B0993D50D042A45EA17AE8C0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC4F499E5F3DE1CFF530F667 /* Pods-Rawg Io API.debug.xcconfig */,
-				CCDB95A7071DB84BAF8FDD81 /* Pods-Rawg Io API.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -289,11 +275,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044494402A90AC8500B46974 /* Build configuration list for PBXNativeTarget "Rawg Io API" */;
 			buildPhases = (
-				1C4EC3F352162874AECB9585 /* [CP] Check Pods Manifest.lock */,
 				044494282A90AC8400B46974 /* Sources */,
 				044494292A90AC8400B46974 /* Frameworks */,
 				0444942A2A90AC8400B46974 /* Resources */,
-				1322C459E0D8409E88C0E7F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +287,7 @@
 			packageProductDependencies = (
 				16BA0E212AFB9112001955D1 /* iOS-Game-App-About */,
 				16BA0E232AFB9115001955D1 /* Core */,
+				16D4C5B22AFC0A4D002C76E8 /* SDWebImage */,
 			);
 			productName = "Rawg Io API";
 			productReference = 0444942C2A90AC8400B46974 /* Rawg Io API.app */;
@@ -335,6 +320,7 @@
 			packageReferences = (
 				16BA0E1B2AFB90EF001955D1 /* XCRemoteSwiftPackageReference "iOS-Game-App-About.git" */,
 				16BA0E1E2AFB90FC001955D1 /* XCRemoteSwiftPackageReference "iOS-Game-App-Core.git" */,
+				16D4C5B12AFC0A4D002C76E8 /* XCRemoteSwiftPackageReference "SDWebImage.git" */,
 			);
 			productRefGroup = 0444942D2A90AC8400B46974 /* Products */;
 			projectDirPath = "";
@@ -361,48 +347,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1322C459E0D8409E88C0E7F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rawg Io API/Pods-Rawg Io API-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1C4EC3F352162874AECB9585 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rawg Io API-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		044494282A90AC8400B46974 /* Sources */ = {
@@ -571,7 +515,6 @@
 		};
 		044494412A90AC8500B46974 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC4F499E5F3DE1CFF530F667 /* Pods-Rawg Io API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -600,7 +543,6 @@
 		};
 		044494422A90AC8500B46974 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCDB95A7071DB84BAF8FDD81 /* Pods-Rawg Io API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -667,6 +609,14 @@
 				kind = branch;
 			};
 		};
+		16D4C5B12AFC0A4D002C76E8 /* XCRemoteSwiftPackageReference "SDWebImage.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -679,6 +629,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 16BA0E1E2AFB90FC001955D1 /* XCRemoteSwiftPackageReference "iOS-Game-App-Core.git" */;
 			productName = Core;
+		};
+		16D4C5B22AFC0A4D002C76E8 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16D4C5B12AFC0A4D002C76E8 /* XCRemoteSwiftPackageReference "SDWebImage.git" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

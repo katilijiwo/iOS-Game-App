@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import MaterialComponents.MaterialSnackbar
 import Core
 
 class FavoriteViewController: UIViewController {
@@ -71,8 +70,7 @@ class FavoriteViewController: UIViewController {
     }
     
     private func showErrorMessage(error: String) {
-        let message = MDCSnackbarMessage(text: error)
-        MDCSnackbarManager.default.show(message)
+        showToast(message: error, font: .systemFont(ofSize: 12.0))
     }
 
 }

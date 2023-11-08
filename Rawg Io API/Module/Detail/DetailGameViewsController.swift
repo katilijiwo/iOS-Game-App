@@ -18,6 +18,7 @@ public class DetailGameViewsController: UIViewController {
     @IBOutlet weak var releaseLbl: UILabel!
     @IBOutlet weak var ratingLbl: UILabel!
     @IBOutlet weak var esrbLbl: UILabel!
+    @IBOutlet weak var dscLabel: UILabel!
     @IBOutlet weak var platformCollection: UICollectionView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
 
@@ -122,9 +123,9 @@ public class DetailGameViewsController: UIViewController {
         releaseLbl.text = data.released
         ratingLbl.text = String(data.rating)
         esrbLbl.text = data.esrbRating
-//        dscLabel.text = data.description.htmlToString
-//        dscLabel.numberOfLines = 0
-//        dscLabel.sizeToFit()
+        dscLabel.text = data.description.htmlToString
+        dscLabel.numberOfLines = 0
+        dscLabel.sizeToFit()
     }
 
     @IBAction func favDidTap(_ sender: UIButton) {
@@ -145,6 +146,7 @@ public class DetailGameViewsController: UIViewController {
         }
         self.showToast(message: message, font: .systemFont(ofSize: 12.0))
     }
+    
 }
 
 extension DetailGameViewsController: UICollectionViewDelegate {}

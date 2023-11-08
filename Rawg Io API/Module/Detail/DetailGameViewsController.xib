@@ -9,8 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailGameViewsController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailGameViewsController" customModule="Rawg_Io_API" customModuleProvider="target">
             <connections>
+                <outlet property="dscLabel" destination="mTI-Lj-Ijs" id="tJx-YV-2db"/>
                 <outlet property="esrbLbl" destination="bgq-Ka-c2H" id="pre-zL-ZB7"/>
                 <outlet property="gameImg" destination="vnZ-xR-xYY" id="FlS-6J-Y1x"/>
                 <outlet property="loadingIndicator" destination="wbu-nx-Aca" id="3s4-ZT-bjJ"/>
@@ -170,6 +171,9 @@
                                             </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain"/>
+                                            <connections>
+                                                <action selector="favDidTap:" destination="-1" eventType="touchUpInside" id="AlN-qF-Lul"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>

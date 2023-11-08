@@ -10,6 +10,24 @@
       }
     },
     {
+      "identity" : "ios-game-app-about",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jiwomdf/iOS-Game-App-About.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5c217fdf64e519ba1e3c1110d0b2a92682a0466c"
+      }
+    },
+    {
+      "identity" : "ios-game-app-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jiwomdf/iOS-Game-App-Core.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "058ae534fe15d135ad8d1c7257a98cce30475e0e"
+      }
+    },
+    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
@@ -25,6 +43,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "6b992e508b1fab07d47775f2fd7485fd5f110893"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "fd1950de05a5ad77cb252fd88576c1e1809ee50d",
+        "version" : "5.18.4"
       }
     }
   ],

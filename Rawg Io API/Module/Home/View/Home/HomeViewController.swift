@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import MaterialComponents.MaterialSnackbar
 import Core
 import SwiftUI
 import iOS_Game_App_About
@@ -77,8 +76,7 @@ class HomeViewController: UIViewController {
     }
 
     private func showErrorMessage(error: String) {
-        let message = MDCSnackbarMessage(text: error)
-        MDCSnackbarManager.default.show(message)
+        showToast(message: error, font: .systemFont(ofSize: 12.0))
     }
     
     
